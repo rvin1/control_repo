@@ -1,6 +1,4 @@
-node default {
-  file { '/custom-file.txt':
-    ensure => 'present',
-    content => "Hello World",
-  }
+file { '/custom-file.txt':
+  ensure => 'present',
+  content => "Hello World",
 }
