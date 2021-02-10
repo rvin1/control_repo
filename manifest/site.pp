@@ -1,5 +1,6 @@
 node default {
-  file {'/root/README':
+  file { '/custom-file.txt':
     ensure => 'present',
+    content => "Hello World",
   }
 }
