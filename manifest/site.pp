@@ -1,4 +1,4 @@
-node default {
+node master {
   file { '/custom-file.txt':
     ensure => 'present',
     content => "Hello World",
