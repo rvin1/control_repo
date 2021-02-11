@@ -1,6 +1,5 @@
 node default {
-  file { '/custom-file.txt':
-    ensure => 'present',
-    content => "Hello World",
-  }
+}
+node 'master.puppet.vm' {
+  include role::master_server
 }
