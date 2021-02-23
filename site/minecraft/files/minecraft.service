@@ -8,5 +8,5 @@ After=network.target
 WorkingDirectory=/opt/minecraft
 ExecStart=/usr/bin/java/ -Xmx512M -Xms32M -java minecraft_server.jar nogui
 
-[Install}
+[Install]
 WantedBy=multi-user.target
